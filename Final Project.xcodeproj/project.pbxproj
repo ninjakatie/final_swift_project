@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022D6FB51FD892DA00013E59 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022D6FB41FD892DA00013E59 /* Place.swift */; };
+		022D6FB71FD892F200013E59 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 022D6FB61FD892F200013E59 /* Places.plist */; };
+		022D6FBA1FD896FC00013E59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022D6FB91FD896FC00013E59 /* MapKit.framework */; };
 		02B30EAE1F69D7450044E9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B30EAD1F69D7450044E9FE /* AppDelegate.swift */; };
 		02B30EB01F69D7450044E9FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B30EAF1F69D7450044E9FE /* ViewController.swift */; };
 		02B30EB31F69D7450044E9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B30EB11F69D7450044E9FE /* Main.storyboard */; };
@@ -15,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02B30EAA1F69D7450044E9FE /* Project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		022D6FB41FD892DA00013E59 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		022D6FB61FD892F200013E59 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		022D6FB91FD896FC00013E59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		02B30EAA1F69D7450044E9FE /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B30EAD1F69D7450044E9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02B30EAF1F69D7450044E9FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02B30EB21F69D7450044E9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,24 +35,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022D6FBA1FD896FC00013E59 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022D6FB81FD896FC00013E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				022D6FB91FD896FC00013E59 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		02B30EA11F69D7450044E9FE = {
 			isa = PBXGroup;
 			children = (
 				02B30EAC1F69D7450044E9FE /* Project 2 */,
 				02B30EAB1F69D7450044E9FE /* Products */,
+				022D6FB81FD896FC00013E59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		02B30EAB1F69D7450044E9FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02B30EAA1F69D7450044E9FE /* Project 2.app */,
+				02B30EAA1F69D7450044E9FE /* Final Project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,11 +70,13 @@
 		02B30EAC1F69D7450044E9FE /* Project 2 */ = {
 			isa = PBXGroup;
 			children = (
+				022D6FB41FD892DA00013E59 /* Place.swift */,
 				02B30EAD1F69D7450044E9FE /* AppDelegate.swift */,
 				02B30EAF1F69D7450044E9FE /* ViewController.swift */,
 				02B30EB11F69D7450044E9FE /* Main.storyboard */,
 				02B30EB41F69D7450044E9FE /* Assets.xcassets */,
 				02B30EB61F69D7450044E9FE /* LaunchScreen.storyboard */,
+				022D6FB61FD892F200013E59 /* Places.plist */,
 				02B30EB91F69D7450044E9FE /* Info.plist */,
 			);
 			path = "Project 2";
@@ -67,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02B30EA91F69D7450044E9FE /* Project 2 */ = {
+		02B30EA91F69D7450044E9FE /* Final Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02B30EBC1F69D7450044E9FE /* Build configuration list for PBXNativeTarget "Project 2" */;
+			buildConfigurationList = 02B30EBC1F69D7450044E9FE /* Build configuration list for PBXNativeTarget "Final Project" */;
 			buildPhases = (
 				02B30EA61F69D7450044E9FE /* Sources */,
 				02B30EA71F69D7450044E9FE /* Frameworks */,
@@ -79,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project 2";
+			name = "Final Project";
 			productName = "Project 2";
-			productReference = 02B30EAA1F69D7450044E9FE /* Project 2.app */;
+			productReference = 02B30EAA1F69D7450044E9FE /* Final Project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,10 +115,15 @@
 					02B30EA91F69D7450044E9FE = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 02B30EA51F69D7450044E9FE /* Build configuration list for PBXProject "Project 2" */;
+			buildConfigurationList = 02B30EA51F69D7450044E9FE /* Build configuration list for PBXProject "Final Project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02B30EA91F69D7450044E9FE /* Project 2 */,
+				02B30EA91F69D7450044E9FE /* Final Project */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +148,7 @@
 			files = (
 				02B30EB81F69D7450044E9FE /* LaunchScreen.storyboard in Resources */,
 				02B30EB51F69D7450044E9FE /* Assets.xcassets in Resources */,
+				022D6FB71FD892F200013E59 /* Places.plist in Resources */,
 				02B30EB31F69D7450044E9FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +162,7 @@
 			files = (
 				02B30EB01F69D7450044E9FE /* ViewController.swift in Sources */,
 				02B30EAE1F69D7450044E9FE /* AppDelegate.swift in Sources */,
+				022D6FB51FD892DA00013E59 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02B30EA51F69D7450044E9FE /* Build configuration list for PBXProject "Project 2" */ = {
+		02B30EA51F69D7450044E9FE /* Build configuration list for PBXProject "Final Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02B30EBA1F69D7450044E9FE /* Debug */,
@@ -290,13 +315,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02B30EBC1F69D7450044E9FE /* Build configuration list for PBXNativeTarget "Project 2" */ = {
+		02B30EBC1F69D7450044E9FE /* Build configuration list for PBXNativeTarget "Final Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02B30EBD1F69D7450044E9FE /* Debug */,
 				02B30EBE1F69D7450044E9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

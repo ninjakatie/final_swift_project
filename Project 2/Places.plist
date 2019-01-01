@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string></string>
+	<dict>
+		<key>title</key>
+		<string>US</string>
+		<key>description</key>
+		<string>US: 37.0902, -95.7129</string>
+		<key>latitude</key>
+		<real>37.0902</real>
+		<key>longitude</key>
+		<real>-95.7129</real>
+		<key>flagImageName</key>
+		<string>us</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>UK</string>
+		<key>description</key>
+		<string>UK: 55.3781, 3.436</string>
+		<key>latitude</key>
+		<real>55.3781</real>
+		<key>longitude</key>
+		<real>3.436</real>
+		<key>flagImageName</key>
+		<string>uk</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Spain</string>
+		<key>description</key>
+		<string>Spain: 40.4637, 3.7492</string>
+		<key>latitude</key>
+		<real>40.4637</real>
+		<key>longitude</key>
+		<real>3.7492</real>
+		<key>flagImageName</key>
+		<string>spain</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Russia</string>
+		<key>description</key>
+		<string>Russia: 61.524, 105.3188</string>
+		<key>latitude</key>
+		<real>61.524</real>
+		<key>longitude</key>
+		<real>105.3188</real>
+		<key>flagImageName</key>
+		<string>russia</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Poland</string>
+		<key>description</key>
+		<string>Poland: 51.9194, 19.1451</string>
+		<key>latitude</key>
+		<real>51.9194</real>
+		<key>longitude</key>
+		<real>19.1451</real>
+		<key>flagImageName</key>
+		<string>poland</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Monaco</string>
+		<key>description</key>
+		<string>Monaco: 43.7384, 7.4246</string>
+		<key>latitude</key>
+		<real>43.7384</real>
+		<key>longitude</key>
+		<real>7.4246</real>
+		<key>flagImageName</key>
+		<string>monaco</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Nigeria</string>
+		<key>description</key>
+		<string>Nigeria: 9.082, 8.6753</string>
+		<key>latitude</key>
+		<real>9.082000000000001</real>
+		<key>longitude</key>
+		<real>8.6753</real>
+		<key>flagImageName</key>
+		<string>nigeria</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Italy</string>
+		<key>description</key>
+		<string>Italy: 41.8719, 12.5674</string>
+		<key>latitude</key>
+		<real>41.8719</real>
+		<key>longitude</key>
+		<real>12.5674</real>
+		<key>flagImageName</key>
+		<string>italy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ireland</string>
+		<key>description</key>
+		<string>Ireland: 53.4129, 8.2439</string>
+		<key>latitude</key>
+		<real>53.4129</real>
+		<key>longitude</key>
+		<real>8.2439</real>
+		<key>flagImageName</key>
+		<string>ireland</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Estonia</string>
+		<key>description</key>
+		<string>Estonia: 58.5953, 25.0136</string>
+		<key>latitude</key>
+		<real>58.5953</real>
+		<key>longitude</key>
+		<real>25.0136</real>
+		<key>flagImageName</key>
+		<string>estonia</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>France</string>
+		<key>description</key>
+		<string>France: 46.2276, 2.2137</string>
+		<key>latitude</key>
+		<real>46.2276</real>
+		<key>longitude</key>
+		<real>2.2137</real>
+		<key>flagImageName</key>
+		<string>france</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Germany</string>
+		<key>description</key>
+		<string>Germany: 51.1657, 10.4515</string>
+		<key>latitude</key>
+		<real>51.1657</real>
+		<key>longitude</key>
+		<real>10.4515</real>
+		<key>flagImageName</key>
+		<string>germany</string>
+	</dict>
+</array>
+</plist>
